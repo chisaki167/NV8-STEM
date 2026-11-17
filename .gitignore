@@ -10,6 +10,7 @@
 /all.mp3
 /.wrangler/
 .DS_Store
+/avatar.jpg
 
 # NGOẠI LỆ: Cho phép Git quản lý thư mục /dist (nơi chứa bản build hoàn chỉnh để đưa lên GitHub)
 !/dist/
