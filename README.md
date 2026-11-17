@@ -31,9 +31,11 @@ NV8-STEM/
 ├── dist/                  # Thư mục chứa bản build hoàn chỉnh (được đẩy lên GitHub)
 │   ├── index.html         # Tệp HTML chính đã tối ưu
 │   ├── bundle.min.js      # Mã nguồn JS + CSS đã được mã hóa
+│   ├── avatar.png         # Ảnh thanh Tab
 │   └── all.mp3            # Tệp âm thanh nguồn
 ├── exec.html              # Mã nguồn HTML gốc (dùng để phát triển)
 ├── exec.js                # Mã nguồn JS gốc (tích hợp sẵn CSS Light Mode)
+├── index.html             # Chuyển hướng sang /dist/index.html
 ├── build.js               # Script tự động build và mã hóa mã nguồn
 ├── package.json           # Khai báo thư viện và thông tin dự án
 ├── .gitignore             # Cấu hình chỉ đẩy thư mục /dist lên Git
@@ -70,6 +72,11 @@ git add dist/
 git commit -m "Cập nhật bản build mới"
 git push
 ```
+
+### 5. Các nguồn tham khảo
+- Giao diện: tham khảo một ít của nhóm 4 và các trang web khác (https://chisaki167.github.io/).
+- Nguồn âm thanh: Minh Đạt và Thanh Vân.
+- Tham khảo code: Deepseek V4 Flash, Gemini 3.6 Flash và Qwen_7.5_27b (có tự làm nữa nha).
 
 ---
 
