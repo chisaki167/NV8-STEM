@@ -1,0 +1,18 @@
+# Bỏ qua toàn bộ thư mục và file ở ngoài gốc
+/node_modules/
+/package.json
+/package-lock.json
+/build.js
+/exec.js
+/exec.html
+/exec_2.js
+/exec_2.html
+/all.mp3
+/.wrangler/
+.DS_Store
+
+# NGOẠI LỆ: Cho phép Git quản lý thư mục /dist (nơi chứa bản build hoàn chỉnh để đưa lên GitHub)
+!/dist/
+!/dist/index.html
+!/dist/bundle.min.js
+!/dist/all.mp3

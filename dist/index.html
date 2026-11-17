@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trình phát âm thanh - Danh sách thành viên</title>
+    <link rel="icon" type="image/jpeg" href="avatar.jpg" />
+  </head>
+  <body>
+    <!-- Cột bên trái: Danh sách thành viên -->
+    <aside class="sidebar">
+      <h2>Danh sách thành viên</h2>
+      <ul class="member-list">
+        <li>1. Bảo Khôi</li>
+        <li>2. Minh Đạt</li>
+        <li>3. Thanh Vân</li>
+        <li>4. Phương Anh</li>
+        <li>5. Hải Nguyên</li>
+        <li>6. Diễm Quỳnh</li>
+      </ul>
+    </aside>
+
+    <!-- Nội dung chính: Nút phát âm thanh -->
+    <main class="main-content">
+      <div class="player-card">
+        <h1>Trình phát âm thanh</h1>
+        <p>Tệp nguồn: <strong>all.mp3</strong></p>
+
+        <!-- Thẻ audio ẩn -->
+        <audio id="audioPlayer" src="all.mp3"></audio>
+
+        <!-- Nút điều khiển -->
+        <button id="toggleBtn" class="play-btn">▶ Bật âm thanh</button>
+      </div>
+    </main>
+
+    <script src="bundle.min.js"></script>
+  </body>
+</html>
