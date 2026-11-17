@@ -1,39 +1,18 @@
-<!doctype html>
-<html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trình phát âm thanh - Danh sách thành viên</title>
-    <link rel="icon" type="image/jpeg" href="avatar.jpg" />
-  </head>
-  <body>
-    <!-- Cột bên trái: Danh sách thành viên -->
-    <aside class="sidebar">
-      <h2>Danh sách thành viên</h2>
-      <ul class="member-list">
-        <li>1. Bảo Khôi</li>
-        <li>2. Minh Đạt</li>
-        <li>3. Thanh Vân</li>
-        <li>4. Phương Anh</li>
-        <li>5. Hải Nguyên</li>
-        <li>6. Diễm Quỳnh</li>
-      </ul>
-    </aside>
-
-    <!-- Nội dung chính: Nút phát âm thanh -->
-    <main class="main-content">
-      <div class="player-card">
-        <h1>Trình phát âm thanh</h1>
-        <p>Tệp nguồn: <strong>all.mp3</strong></p>
-
-        <!-- Thẻ audio ẩn -->
-        <audio id="audioPlayer" src="all.mp3"></audio>
-
-        <!-- Nút điều khiển -->
-        <button id="toggleBtn" class="play-btn">▶ Bật âm thanh</button>
-      </div>
-    </main>
-
-    <script src="bundle.min.js"></script>
-  </body>
-</html>
+<!doctype html><html lang="vi"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Trình phát âm thanh - Danh sách thành viên</title><link rel="icon" type="image/jpeg" href="avatar.jpg" /><link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap"
+      rel="stylesheet"
+    /><link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    /></head><body><div class="liquid-bg"><span class="blob blob-yellow"></span><span class="blob blob-red"></span><span class="blob blob-amber"></span></div><header class="glass-nav"><div class="nav-container"><div class="nav-left"><div class="logo-box"><i class="fa-solid fa-star"></i></div><div><span class="badge-mini">Hệ thống âm thanh</span><span class="nav-title"
+              >Trình phát âm thanh - Danh sách thành viên</span
+            ></div></div><div class="nav-right"><span id="audioStateBadge" class="state-chip"><i class="fa-solid fa-circle-dot"></i> Sẵn sàng
+          </span></div></div></header><div class="workspace"><main class="main-content"><div class="player-card glass-surface"><div class="card-top-strip"><span
+              ><i class="fa-solid fa-wave-square"></i> Trình phát trực
+              tuyến</span
+            ><span class="file-tag">all.mp3</span></div><div class="player-body"><div class="visual-stage" id="visualStage"><div class="glass-medallion"><i class="fa-solid fa-volume-high"></i></div><div class="equalizer"><span></span><span></span><span></span><span></span
+                ><span></span></div></div><h1>Trình phát âm thanh</h1><p class="source-label">Tệp nguồn: <strong>all.mp3</strong></p><div class="progress-area"><div class="progress-track" id="progressTrack"><div class="progress-fill" id="progressFill"></div></div><div class="time-row"><span id="currentTime">00:00</span><span id="totalDuration">--:--</span></div></div><div id="errorNotice" class="error-banner" hidden></div><audio id="audioPlayer" src="all.mp3" preload="auto"></audio><button id="toggleBtn" type="button" class="play-btn">
+              ▶ Bật âm thanh
+            </button></div></div></main><aside class="sidebar glass-surface"><div class="sidebar-top"><div class="title-wrap"><span class="icon-circle"
+              ><i class="fa-solid fa-user-group"></i
+            ></span><h2>Danh sách thành viên</h2></div><span class="count-pill">6 thành viên</span></div><ul class="member-list"><li><span class="idx">1</span><span class="name">Bảo Khôi</span></li><li><span class="idx">2</span><span class="name">Minh Đạt</span></li><li><span class="idx">3</span><span class="name">Thanh Vân</span></li><li><span class="idx">4</span><span class="name">Phương Anh</span></li><li><span class="idx">5</span><span class="name">Hải Nguyên</span></li><li><span class="idx">6</span><span class="name">Diễm Quỳnh</span></li></ul></aside></div><script src="bundle.min.js"></script></body></html>
