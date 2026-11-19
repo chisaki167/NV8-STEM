@@ -1,4 +1,4 @@
-# 🎵 Trình Phát Âm Thanh - Dự Án NV8-STEM
+# Dự Án NV8-STEM
 
 Ứng dụng web trình phát âm thanh nhẹ nhàng, tích hợp giao diện **Light Glassmorphism** (kính mờ sáng hiện đại) cùng danh sách thành viên nhóm. Dự án được thiết kế tối ưu để đóng gói, mã hóa bảo vệ mã nguồn và triển khai nhanh chóng trên **GitHub Pages**.
 
@@ -29,16 +29,16 @@
 ```text
 NV8-STEM/
 ├── dist/                  # Thư mục chứa bản build hoàn chỉnh (được đẩy lên GitHub)
-│   ├── index.html         # Tệp HTML chính đã tối ưu
-│   ├── bundle.min.js      # Mã nguồn JS + CSS đã được mã hóa
-│   ├── avatar.png         # Ảnh thanh Tab
-│   └── all.mp3            # Tệp âm thanh nguồn
+│   ├── index.html         # Được tải lên GitHub (cái file đang thấy).
+│   ├── bundle.min.js      # Được tải lên GitHub (cái file đang thấy, đã được mã hóa).
+│   ├── avatar.png         # Được tải lên GitHub (cái file đang thấy).
+│   └── all.mp3            # Được tải lên GitHub (cái file đang thấy).
 ├── exec.html              # Mã nguồn HTML gốc (dùng để phát triển)
 ├── exec.js                # Mã nguồn JS gốc (tích hợp sẵn CSS Light Mode)
 ├── index.html             # Chuyển hướng sang /dist/index.html
 ├── build.js               # Script tự động build và mã hóa mã nguồn
 ├── package.json           # Khai báo thư viện và thông tin dự án
-├── .gitignore             # Cấu hình chỉ đẩy thư mục /dist lên Git
+├── .gitignore             # Cấu hình chỉ đẩy những file cần thiết lên GitHub.
 └── README.md              # Tài liệu hướng dẫn dự án
 ```
 
